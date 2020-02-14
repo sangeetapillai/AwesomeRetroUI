@@ -1,0 +1,28 @@
+.show {
+  display:block !important;
+}
+#new_section{
+  display: none;
+}
+.main-container {
+    margin: 37px 77px 0px 37px;
+    background: #055ab68c;
+    padding: 5px;
+    min-height: calc(100vh - 100px);
+
+}
+.top-bar{
+	margin: 0px 0px 12px 0px;
+	font-weight: 600;
+	color: #fff;	
+}
+.alignedwithmargin{
+	margin-right: 129px;
+}
+.newSection{
+  cursor: pointer;
+  right: 85px;
+  position: absolute;
+
+}
+

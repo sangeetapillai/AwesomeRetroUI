@@ -1,0 +1,11 @@
+<span class="sectionContainer">
+  <div class="sectionHeader">
+  	<span class="sectionheaderspan">{{ header}}</span>
+  	<a class="action" (click)="removeSection()"><fa [name]="'minus-circle'"></fa></a>  	
+  </div>
+  <div class="">
+    <ng-template appRetrocard></ng-template>
+  </div>
+  <a class="action small-font" (click)="addRetroCard()"><fa [name]="'plus-circle'"></fa>&nbsp;Add another card</a>
+  
+</span>

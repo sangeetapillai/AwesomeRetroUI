@@ -1,0 +1,22 @@
+.action{
+  cursor: pointer;
+  color: grey !important;
+}
+
+.my-row{
+	display: flex;
+	flex-wrap: wrap;
+
+}
+.clear{
+	clear: both;
+}
+.small-font{
+	font-size: 9px;
+}
+.medium-font{
+	font-size: 12px;
+}
+.small-medium-font {
+  font-size: 10px;
+}

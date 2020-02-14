@@ -1,0 +1,14 @@
+.backgrounding{
+  background-image: url('https://image.freepik.com/free-vector/cheerful-group-businesspeople-holding-raised-hands-happy-successful-team-colorful-doodle-silhouettes_48369-18395.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  padding: 20px;
+}
+
+.retro_container {
+  margin: 20px;
+  border: 8px solid #055ab68c;
+}
+
+

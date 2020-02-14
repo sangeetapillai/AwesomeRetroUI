@@ -1,0 +1,17 @@
+<div class="retro-card small-font" >
+  <div *ngIf="editMode; then edit_block else actual_block"></div>
+  <ng-template #edit_block>
+    <textarea class="card_edit_mode actual_card" placeholder="Speak your mind!"  ng-trim="false" [(ngModel)]='cardContent' rows="4" cols="33">
+    </textarea>
+    <div class="footer">
+      <button (click)="addCard()" class="addCard btn btn-sm"><fa [name]="'check'"></fa></button>
+      <button class="btn btn-sm btn-failure" (click)="removeCard()"><fa [name]="'remove'"></fa></button>
+    </div>
+  </ng-template>
+  <ng-template #actual_block>
+    <div class="actual_card" [textContent]="cardContent" (click)="edit()"></div>
+    <div class="footer">
+      <a class="action" (click)="likeCard()"><fa [name]="'thumbs-o-up'"></fa>&nbsp;{{likes}}</a>
+    </div>
+  </ng-template>
+</div>

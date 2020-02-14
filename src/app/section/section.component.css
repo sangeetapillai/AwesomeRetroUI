@@ -1,0 +1,22 @@
+.sectionContainer {
+  	background-color: #e9ecef;
+    display: flex;
+    width: 180px;
+    padding: 5px;
+    flex-basis: 0;
+    flex-direction: column;
+    flex-grow: 1;
+    margin-right: 10px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.sectionHeader {
+    font-weight: 600;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+.sectionheaderspan{
+	margin-right: 10px;
+}
+

@@ -1,0 +1,36 @@
+{
+  "label" : "my first",
+  "team" : "Jaguar",
+  "sections" : [
+    {
+      "id" : 1,
+      "header": "section1",
+
+      "cards": [
+        {
+          "id" : 1,
+          "content": "Awesome Retro232323"
+        },
+        {
+          "id" : 2,
+          "content": "Awesome Retro232323"
+        }
+      ]
+    },
+    {
+      "header": "section2",
+      "id" : 2,
+      "cards": [
+        {
+          "id" : 1,
+          "content": "Super Retro"
+        }
+      ]
+    },
+    {
+      "header": "section3",
+      "id" : 3,
+      "cards": []
+    }
+  ]
+}

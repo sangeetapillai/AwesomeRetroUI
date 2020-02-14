@@ -1,0 +1,45 @@
+<div class="main-container medium-font">
+  <div class="top-bar row">    
+    <div class=" col-md-1 dropdown" >
+      <a   data-toggle="dropdown">
+        <fa [name] = "'bars'"></fa>
+      </a>
+      <div class="dropdown-menu" >
+       <a style="cursor:pointer" class="small-medium-font dropdown-item" (click)="exportAsExcel()"><fa [name] = "'file-excel-o'"></fa>&nbsp;Export as excel</a>
+      </div>
+    </div>
+    
+    <div  class="col-md-4 ">Awesome Retro - {{title}}</div>
+    <div class="col-md-4 ">Awesome Team - {{teamName}}</div>
+    <div class="col-md-3 ">
+      <a class="" data-toggle="modal" data-target="#new_section">
+        <fa [name] = "'plus-circle'"></fa>&nbsp;Another dimension
+      </a>
+   </div>
+  </div>
+  <div class="my-row">
+
+    <ng-template appSectionContainer></ng-template>
+
+  </div>
+
+  <div class="modal fade" id="new_section">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-body">
+          <div>
+            <input type="text" [(ngModel)]="header" class="form-control" placeholder=" Enter an awesome label for the new section"/>
+
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button (click)="addSection()"  data-dismiss="modal" class="btn btn-sm btn-info" >Done</button>
+          <button data-dismiss="modal" class="btn btn-sm btn-info" >Cancel</button>
+        </div>
+      </div>
+    </div>
+  </div>
+<span class="clear"></span>
+</div>
+
+
